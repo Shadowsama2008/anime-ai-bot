@@ -6,11 +6,11 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 # إعداد التسجيل
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
-BOT_TOKEN = os.getenv('BOT_TOKEN')
+BOT_TOKEN = os.getenv('8051016467:AAGg6PF0cgqMSSaT_LKy4atdbSzI_5I69-8')
 
 class AnimeBot:
     def __init__(self):
-        self.app = Application.builder().token(BOT_TOKEN).build()
+        self.app = Application.builder().token(8051016467:AAGg6PF0cgqMSSaT_LKy4atdbSzI_5I69-8).build()
         self.setup_handlers()
     
     def setup_handlers(self):
